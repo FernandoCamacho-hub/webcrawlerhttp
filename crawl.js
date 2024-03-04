@@ -17,7 +17,7 @@ function getURLsFromHTML(htmlBody, baseURL) {
                 const urlObj = new URL(linkElement.href)
                 urls.push(urlObj.href)
             } catch(err) {
-                console.log(`error with absolute url: ${err.message}`)
+                console.log(`error with absolut url: ${err.message}`)
             }
         }
     }
